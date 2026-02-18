@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  padding: 15px 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.stat-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.stat-box h3 {
+  margin: 0;
+  font-size: 28px;
+  color: #4e73df;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background: #4e73df;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #2e59d9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+table th {
+  background: #4e73df;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
